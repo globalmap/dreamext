@@ -1,0 +1,124 @@
+.main {
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+}
+
+.info {
+    width: 330px;
+    background-color: #fff;
+
+    p {
+        margin: 0;
+    }
+}
+
+.title {
+    display: flex;
+    padding: 30px;
+    padding-bottom: 27px;
+
+       img {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #25aef6;
+    }
+
+    .name {
+        font-weight: 750;
+        font-size: 16px;
+        line-height: 20px;
+        color: #3B3B3B;
+    }
+
+    .type {
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #16395B;
+        margin-top: 3px;
+    }
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #D2E1F5;
+    border-bottom: 1px solid #D2E1F5;
+
+    .statsTitle {
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #AFB9DD;
+        margin-bottom: 9px;
+    }
+
+    .icon {
+        font-weight: 750;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000;
+    
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.addressWork {
+    padding: 30px;
+    padding-top: 20px;
+    padding-right: 18px;
+}
+
+.address {
+   
+    .addressTitle {
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #AFB9DD;
+    }
+
+    .text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        margin-bottom: 34px;
+    }
+}
+
+.work {
+    .workTitle {
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #AFB9DD;
+        margin-bottom: 10px;
+    }
+    .container {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        span {
+            font-weight: bold
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 80vw;
+    }
+}

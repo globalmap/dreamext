@@ -1,0 +1,17 @@
+.main {
+    margin-left: 7.8125rem !important;
+    margin-top: 1.875rem !important
+}
+
+@media screen and (max-width: 1200px) {
+    .main {
+        margin-left: 3rem !important;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .main {
+        margin-left: 1rem !important
+    }
+}

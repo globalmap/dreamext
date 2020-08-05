@@ -1,0 +1,23 @@
+.main {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+
+    svg {
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 910px) {
+    .main {
+        display: none;
+    }
+}

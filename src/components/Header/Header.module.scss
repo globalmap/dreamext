@@ -1,0 +1,40 @@
+.main {
+    padding-top: 0.875rem;
+    padding-left: 7.8125rem;
+    padding-right: 7.8125rem;
+    padding-bottom: 1.0625rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #C0D3FE;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .main {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 910px) {
+    .main {
+        button  {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
